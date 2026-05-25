@@ -11,13 +11,13 @@
     .section { padding:20px; border-bottom:1px solid #333; }
 
     table { width:100%; border-collapse:collapse; margin-top:10px; }
-    th, td { border:1px solid #333; padding:8px; text-align:center; }
+    th, td { border:1px solid #333; padding:8px; text-align:left; }
     th { background:#222; }
 
     .retail { text-decoration:line-through; color:#888; }
     .member { color:#00ff88; font-weight:bold; }
 
-    input, textarea, select { width:100%; padding:8px; margin:5px 0; }
+    input, textarea { width:100%; padding:8px; margin:5px 0; }
 
     .btn { background:red; color:white; padding:12px; display:inline-block; text-decoration:none; }
   </style>
@@ -27,22 +27,15 @@
 
 <header>
   <h1>🔥 DELTA BOOM 🔥</h1>
-  <p><strong>Save 30% on Fireworks</strong></p>
+  <p><strong>Members Save 25% vs Retail</strong></p>
 </header>
 
-<!-- JOIN -->
 <div class="section">
   <h2>💥 Join the Club</h2>
   <p>$10 Annual Membership</p>
-
-  <a href="https://buy.stripe.com/14A00k9dOf8nfIJ2mm18c00" class="btn">
-    Join Now
-  </a>
-
-  <p>✅ Unlock wholesale pricing instantly</p>
+  <a href="https://buy.stripe.com/14A00k9dOf8nfIJ2mm18c00" class="btn">Join Now</a>
 </div>
 
-<!-- DELIVERY -->
 <div class="section">
   <h2>🚚 Delivery</h2>
   <p>Memphis & DeSoto County</p>
@@ -50,47 +43,117 @@
   <p>$50 minimum order</p>
 </div>
 
-<!-- MAIN CATALOG -->
+<!-- FEATURED REAL ITEMS -->
 <div class="section">
-<h2>📦 Catalog (30% Off for Members)</h2>
+<h2>🔥 Featured Inventory</h2>
 
 <table>
 <tr>
-<th>Catalog #</th>
+<th>#</th>
+<th>Item</th>
+<th>Description</th>
 <th>Retail</th>
 <th>Member Price</th>
 </tr>
 
-<tr><td>01006</td><td class="retail">$10</td><td class="member">$7</td></tr>
-<tr><td>01008</td><td class="retail">$12</td><td class="member">$8</td></tr>
+<tr><td>12010</td><td>Solar Rain</td>
+<td>52 shot gold mines to silk willow breaks with crackling finale</td>
+<td class="retail">$135</td><td class="member">$101</td></tr>
 
-<tr><td>04026</td><td class="retail">$15</td><td class="member">$11</td></tr>
-<tr><td>04049</td><td class="retail">$20</td><td class="member">$14</td></tr>
-<tr><td>04206</td><td class="retail">$25</td><td class="member">$18</td></tr>
+<tr><td>12033</td><td>High Stepper</td>
+<td>200 shot cake with comets, glitter mines and crackling brocades</td>
+<td class="retail">$285</td><td class="member">$214</td></tr>
 
-<tr><td>06018</td><td class="retail">$30</td><td class="member">$21</td></tr>
+<tr><td>12128</td><td>Victory March</td>
+<td>Red, white & blue tails → patriotic aerial bursts with pistils</td>
+<td class="retail">$185</td><td class="member">$139</td></tr>
 
-<tr><td>08010</td><td class="retail">$12</td><td class="member">$8</td></tr>
+<tr><td>12175</td><td>Fire God</td>
+<td>Crackling mines with multi-color effects and glitter</td>
+<td class="retail">$125</td><td class="member">$94</td></tr>
 
-<tr><td>09019</td><td class="retail">$10</td><td class="member">$7</td></tr>
+<tr><td>17054</td><td>Electric Rain Shell Kit</td>
+<td>60g premium canister shells with massive breaks</td>
+<td class="retail">$160</td><td class="member">$120</td></tr>
 
-<tr><td>10030</td><td class="retail">$15</td><td class="member">$11</td></tr>
-<tr><td>10050</td><td class="retail">$20</td><td class="member">$14</td></tr>
+<tr><td>19355</td><td>Sky Bandit</td>
+<td>25 shot multi-color cake firing 5 shots at once</td>
+<td class="retail">$36</td><td class="member">$27</td></tr>
 
-<tr><td>11277</td><td class="retail">$12</td><td class="member">$8</td></tr>
-<tr><td>11233</td><td class="retail">$10</td><td class="member">$7</td></tr>
-<tr><td>11246</td><td class="retail">$12</td><td class="member">$8</td></tr>
-<tr><td>11335</td><td class="retail">$12</td><td class="member">$8</td></tr>
-<tr><td>11345</td><td class="retail">$14</td><td class="member">$10</td></tr>
+<tr><td>19295</td><td>Coconut Grove</td>
+<td>Large gold crackling palm tree aerial bursts</td>
+<td class="retail">$40</td><td class="member">$30</td></tr>
 
-<tr><td>12370</td><td class="retail">$110</td><td class="member">$77</td></tr>
-<tr><td>12010</td><td class="retail">$120</td><td class="member">$84</td></tr>
-<tr><td>12033</td><td class="retail">$140</td><td class="member">$98</td></tr>
-<tr><td>12128</td><td class="retail">$100</td><td class="member">$70</td></tr>
-<tr><td>12137</td><td class="retail">$110</td><td class="member">$77</td></tr>
-<tr><td>12139</td><td class="retail">$110</td><td class="member">$77</td></tr>
-<tr><td>12157</td><td class="retail">$115</td><td class="member">$80</td></tr>
-<tr><td>12171</td><td class="retail">$95</td><td class="member">$66</td></tr>
-<tr><td>12175</td><td class="retail">$125</td><td class="member">$87</td></tr>
-<tr><td>12401</td><td class="retail">$120</td><td class="member">$84</td></tr>
-<tr><td>12409</td><td class="retail">$120</td><td class="member">$84</td></tr>
+<tr><td>19387</td><td>Crackle Mania</td>
+<td>Multi-color tails → loud crackling bursts</td>
+<td class="retail">$36</td><td class="member">$27</td></tr>
+
+<tr><td>16059</td><td>Big Blaster Bag</td>
+<td>Medium assortment mix of aerial and ground items</td>
+<td class="retail">$85</td><td class="member">$64</td></tr>
+
+<tr><td>16105</td><td>Times Square Box</td>
+<td>Large assortment with aerials + fountains</td>
+<td class="retail">$150</td><td class="member">$113</td></tr>
+
+<tr><td>01039</td><td>1000 String Firecrackers</td>
+<td>Classic loud chain firecrackers</td>
+<td class="retail">$20</td><td class="member">$15</td></tr>
+
+<tr><td>01042</td><td>2000 String Firecrackers</td>
+<td>Long chain for high-volume noise effect</td>
+<td class="retail">$33</td><td class="member">$25</td></tr>
+
+<tr><td>11233</td><td>Classic Fountain</td>
+<td>Gold sparks with crackling effects fountain</td>
+<td class="retail">$8</td><td class="member">$6</td></tr>
+
+<tr><td>11246</td><td>Crackling Crimson</td>
+<td>Red stars with glitter and crackling</td>
+<td class="retail">$8</td><td class="member">$6</td></tr>
+
+<tr><td>10050</td><td>Patriotic Smoke</td>
+<td>Red, white and blue smoke fountains (40 seconds)</td>
+<td class="retail">$8</td><td class="member">$6</td></tr>
+
+<tr><td>04026</td><td>6oz Assorted Rockets</td>
+<td>Multi-color rockets with aerial effects</td>
+<td class="retail">$14</td><td class="member">$11</td></tr>
+
+<tr><td>04206</td><td>Big Burst Ballistics</td>
+<td>Large rockets with gold tails and multi effects</td>
+<td class="retail">$30</td><td class="member">$23</td></tr>
+
+</table>
+
+<p><strong>👉 We carry 400+ additional items from this catalog — request anything by item number!</strong></p>
+
+</div>
+
+<!-- ORDER -->
+<div class="section">
+<h2>📝 Place Your Order</h2>
+
+<form action="https://formspree.io/f/mgoqllde" method="POST">
+
+<label>Name:</label>
+<input type="text" name="name" required>
+
+<label>Phone:</label>
+<input type="text" name="phone" required>
+
+<label>Email:</label>
+<input type="email" name="email" required>
+
+<label>Order:</label>
+<textarea name="order" rows="5" placeholder="Example: 12010 x2, 17054 x1"></textarea>
+
+<button class="btn">Submit Order</button>
+
+</form>
+
+<p>✅ We will confirm your order and send a secure Stripe invoice</p>
+</div>
+
+</body>
+</html>
