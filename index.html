@@ -6,64 +6,94 @@
   <style>
     body {
       font-family: Arial;
-      margin: 0;
       background: #0b0b0b;
       color: white;
+      margin: 0;
     }
-
     header {
       text-align: center;
       padding: 25px;
       background: black;
       border-bottom: 3px solid red;
     }
-
-    h1 {
-      color: #ff3c00;
-      margin: 0;
-    }
-
-    h2 {
-      color: #ffaa00;
-    }
-
+    h1 { color: #ff3c00; }
+    h2 { color: #ffaa00; }
     .section {
       padding: 20px;
       border-bottom: 1px solid #333;
     }
-
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 10px;
     }
-
     th, td {
       border: 1px solid #333;
       padding: 8px;
     }
-
-    th {
-      background: #222;
-    }
-
+    th { background: #222; }
     input, select, textarea {
       width: 100%;
       padding: 8px;
       margin: 5px 0;
     }
-
     .btn {
       background: red;
       color: white;
       padding: 12px;
-      text-decoration: none;
-      display: inline-block;
       border: none;
       cursor: pointer;
     }
   </style>
 </head>
+
+<body>
+
+<header>
+  <h1>🔥 DELTA BOOM 🔥</h1>
+  <p>Fireworks Buyers Club – Save 20%</p>
+</header>
+
+<div class="section">
+  <h2>💥 Join the Club</h2>
+  <p>$10 Annual Membership</p>
+  <p>Cash App: $YourCashTag</p>
+</div>
+
+<div class="section">
+  <h2>🚚 Delivery Only</h2>
+  <p>Memphis & DeSoto County</p>
+  <p>$50 minimum order</p>
+</div>
+
+<div class="section">
+  <h2>🔥 500g Cakes</h2>
+  <table>
+    <tr><th>Item</th><th>Member Price</th></tr>
+    <tr><td>Solar Rain</td><td>$96</td></tr>
+    <tr><td>Fire God</td><td>$100</td></tr>
+    <tr><td>High Stepper</td><td>$112</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>💥 Shell Kits</h2>
+  <table>
+    <tr><th>Item</th><th>Member Price</th></tr>
+    <tr><td>Electric Rain</td><td>$144</td></tr>
+    <tr><td>Spirit of Liberty</td><td>$176</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>🧨 Firecrackers</h2>
+  <table>
+    <tr><th>Item</th><th>Member Price</th></tr>
+    <tr><td>1000 String</td><td>$28</td></tr>
+    <tr><td>2000 String</td><td>$44</td></tr>
+  </table>
+</div>
+
 <div class="section">
   <h2>📝 Place Your Order</h2>
 
@@ -79,34 +109,19 @@
     <input type="email" name="email" required>
 
     <label>Order Details:</label>
-    <textarea name="order" rows="5" placeholder="List items + quantities" required></textarea>
+    <textarea name="order" rows="5" required></textarea>
 
-    <label>Delivery Area:</label>
-    <select name="delivery_area">
+    <label>Area:</label>
+    <select name="area">
       <option>Memphis</option>
       <option>DeSoto County</option>
     </select>
-
-    <input type="hidden" name="_subject" value="New Delta Boom Order">
 
     <button class="btn" type="submit">Submit Order</button>
 
   </form>
 
-  <p>✅ We will contact you within 24 hours to confirm delivery.</p>
 </div>
-<body>
 
-<header>
-  <h1>🔥 DELTA BOOM 🔥</h1>
-  <p>Fireworks Buyers Club – Save 20% vs Retail</p>
-</header>
-
-<div class="section">
-  <h2>💥 Join the Club</h2>
-  <p>$10 Annual Membership</p>
-  <p>✔ Wholesale pricing access</p>
-  <p>✔ Order direct from supplier</p>
-  <p>✔ Local delivery available</p>
-
-  <h3>💳 Join Now</h3>
+</body>
+</html>
