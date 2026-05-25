@@ -8,17 +8,18 @@
     header { text-align:center; padding:25px; background:black; border-bottom:3px solid red; }
     h1 { color:#ff3c00; }
     h2 { color:#ffaa00; }
+
     .section { padding:20px; border-bottom:1px solid #333; }
 
     table { width:100%; border-collapse:collapse; margin-top:10px;}
-    th, td { border:1px solid #333; padding:6px; font-size:14px;}
+    th, td { border:1px solid #333; padding:6px; font-size:14px; }
     th { background:#222; }
 
     .retail { text-decoration:line-through; color:#888; }
     .member { color:#00ff88; font-weight:bold; }
 
-    input, textarea { width:100%; padding:8px; margin:5px 0;}
-    .btn { background:red; color:white; padding:10px; display:inline-block; text-decoration:none;}
+    input[type=number] { width:60px; }
+    .btn { background:red; color:white; padding:10px; display:inline-block; margin-top:10px; }
   </style>
 </head>
 
@@ -34,92 +35,162 @@
   <a href="https://buy.stripe.com/14A00k9dOf8nfIJ2mm18c00" class="btn">Join Now</a>
 </div>
 
-<div class="section">
-  <h2>📦 FULL CATALOG</h2>
-
-  <table>
-    <tr>
-      <th>#</th>
-      <th>Item</th>
-      <th>Description</th>
-      <th>Retail</th>
-      <th>Member</th>
-    </tr>
-
-    <!-- FIRECRACKERS -->
-    <tr><td>01006</td><td>Shogun Full Brick</td><td>Full brick firecrackers (80 packs)</td><td class="retail">$20</td><td class="member">$15</td></tr>
-    <tr><td>01008</td><td>Cherry Bomb Full Brick</td><td>Loud bursting firecrackers</td><td class="retail">$28</td><td class="member">$21</td></tr>
-    <tr><td>01039</td><td>1000 String</td><td>Chain of 1000 firecrackers</td><td class="retail">$20</td><td class="member">$15</td></tr>
-    <tr><td>01042</td><td>2000 String</td><td>Massive loud firecracker chain</td><td class="retail">$33</td><td class="member">$25</td></tr>
-    <tr><td>01077</td><td>4000 String AFW</td><td>Extended firecracker chain</td><td class="retail">$75</td><td class="member">$56</td></tr>
-
-    <!-- ROCKETS -->
-    <tr><td>04026</td><td>6oz Assorted Rockets</td><td>Multi-color aerial rockets</td><td class="retail">$14</td><td class="member">$11</td></tr>
-    <tr><td>04049</td><td>Wild Geese Rocket</td><td>Flies up with red & green stars</td><td class="retail">$5</td><td class="member">$4</td></tr>
-    <tr><td>04206</td><td>Big Burst Ballistics</td><td>Large rockets with gold tails</td><td class="retail">$30</td><td class="member">$23</td></tr>
-
-    <!-- SMOKE -->
-    <tr><td>10030</td><td>Mammoth Smoke</td><td>White smoke lasting ~1 minute</td><td class="retail">$2</td><td class="member">$2</td></tr>
-    <tr><td>10050</td><td>Patriotic Smoke</td><td>Red White Blue smoke fountain</td><td class="retail">$8</td><td class="member">$6</td></tr>
-
-    <!-- FOUNTAINS -->
-    <tr><td>11233</td><td>Classic Fountain</td><td>Gold sparks + crackling</td><td class="retail">$8</td><td class="member">$6</td></tr>
-    <tr><td>11246</td><td>Crackling Crimson</td><td>Red stars + crackle</td><td class="retail">$8</td><td class="member">$6</td></tr>
-    <tr><td>11335</td><td>Afterglow</td><td>Red/green stars + flashing + crackling</td><td class="retail">$8</td><td class="member">$6</td></tr>
-    <tr><td>11345</td><td>Rock of Ages</td><td>Fan fountain with multi-color + crackle</td><td class="retail">$20</td><td class="member">$15</td></tr>
-
-    <!-- 500g CAKES -->
-    <tr><td>12010</td><td>Solar Rain</td><td>Gold willow breaks + crackle finale</td><td class="retail">$135</td><td class="member">$101</td></tr>
-    <tr><td>12033</td><td>High Stepper</td><td>200 shot barrage w/ crackling + brocade</td><td class="retail">$285</td><td class="member">$214</td></tr>
-    <tr><td>12128</td><td>Victory March</td><td>Red/white/blue patriotic bursts</td><td class="retail">$185</td><td class="member">$139</td></tr>
-    <tr><td>12137</td><td>D-Day</td><td>Crackling + brocade crowns</td><td class="retail">$185</td><td class="member">$139</td></tr>
-    <tr><td>12171</td><td>Vegas Lights</td><td>Multi color with crackling effects</td><td class="retail">$120</td><td class="member">$90</td></tr>
-    <tr><td>12175</td><td>Fire God</td><td>Gold crackling mines to stars</td><td class="retail">$125</td><td class="member">$94</td></tr>
-
-    <!-- ASSORTMENTS -->
-    <tr><td>16032</td><td>Super USA Tray</td><td>Medium aerial + fountain assortment</td><td class="retail">$120</td><td class="member">$90</td></tr>
-    <tr><td>16059</td><td>Big Blaster Bag</td><td>Mixed aerial + ground assortment</td><td class="retail">$85</td><td class="member">$64</td></tr>
-    <tr><td>16105</td><td>Times Square Box</td><td>Large aerial + ground assortment</td><td class="retail">$150</td><td class="member">$113</td></tr>
-
-    <!-- SHELLS -->
-    <tr><td>17013</td><td>Spirit of Liberty</td><td>96 shell reloadable kit</td><td class="retail">$450</td><td class="member">$338</td></tr>
-    <tr><td>17054</td><td>Electric Rain</td><td>Premium 60g canister shells</td><td class="retail">$160</td><td class="member">$120</td></tr>
-    <tr><td>17062</td><td>Canister Cannon</td><td>Compact shell kit multi effects</td><td class="retail">$22</td><td class="member">$17</td></tr>
-
-    <!-- REPEATERS -->
-    <tr><td>19295</td><td>Coconut Grove</td><td>Gold crackling palm bursts</td><td class="retail">$40</td><td class="member">$30</td></tr>
-    <tr><td>19316</td><td>Ripcord</td><td>Silver swirl tail to stars</td><td class="retail">$20</td><td class="member">$15</td></tr>
-    <tr><td>19355</td><td>Sky Bandit</td><td>Multi color fast firing cake</td><td class="retail">$36</td><td class="member">$27</td></tr>
-    <tr><td>19387</td><td>Crackle Mania</td><td>Loud crackling bursts</td><td class="retail">$36</td><td class="member">$27</td></tr>
-
-    <!-- CANDLES -->
-    <tr><td>20011</td><td>10 Ball Candle</td><td>10 shot roman candle</td><td class="retail">$9</td><td class="member">$7</td></tr>
-    <tr><td>20055</td><td>Assorted Candles</td><td>Mixed candle effects</td><td class="retail">$10</td><td class="member">$8</td></tr>
-    <tr><td>20068</td><td>Tracer Shell Candles</td><td>Whistling tail to report</td><td class="retail">$20</td><td class="member">$15</td></tr>
-    <tr><td>20084</td><td>Power Candle Pack</td><td>Multi color candle pack</td><td class="retail">$35</td><td class="member">$26</td></tr>
-
-    <!-- ADDITIONAL ITEMS -->
-    <tr><td>22021</td><td>Assorted Tube Kit</td><td>Premium tubes assorted effects</td><td class="retail">$120</td><td class="member">$90</td></tr>
-    <tr><td>22040</td><td>Tube Assortment</td><td>Multiple shot tubes with effects</td><td class="retail">$120</td><td class="member">$90</td></tr>
-    <tr><td>22090</td><td>Premium Tube Kit</td><td>Large premium tube package</td><td class="retail">$150</td><td class="member">$113</td></tr>
-
-  </table>
-
-</div>
-
-<!-- ORDER -->
-<div class="section">
-<h2>📝 Order</h2>
-
 <form action="https://formspree.io/f/mgoqllde" method="POST">
-<input type="text" name="name" placeholder="Name" required>
-<input type="text" name="phone" placeholder="Phone" required>
-<input type="email" name="email" placeholder="Email" required>
-<textarea name="order" rows="5" placeholder="Enter item # + quantity"></textarea>
-<button class="btn">Submit</button>
-</form>
+
+<!-- FIRECRACKERS -->
+<div class="section">
+<h2>🧨 Firecrackers</h2>
+<table>
+<tr><th>Select</th><th>#</th><th>Item</th><th>Retail</th><th>Member</th><th>Qty</th></tr>
+
+<tr>
+<td><input type="checkbox" name="item[]" value="01006 Shogun Full Brick"></td>
+<td>01006</td><td>Shogun Full Brick</td>
+<td class="retail">$20</td><td class="member">$15</td>
+<td><input type="number" name="qty_01006"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="01008 Cherry Bomb Full Brick"></td>
+<td>01008</td><td>Cherry Bomb Full Brick</td>
+<td class="retail">$28</td><td class="member">$21</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="01039 1000 String"></td>
+<td>01039</td><td>1000 String</td>
+<td class="retail">$20</td><td class="member">$15</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="01042 2000 String"></td>
+<td>01042</td><td>2000 String</td>
+<td class="retail">$33</td><td class="member">$25</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="01077 4000 String"></td>
+<td>01077</td><td>4000 String</td>
+<td class="retail">$75</td><td class="member">$56</td>
+<td><input type="number"></td>
+</tr>
+
+</table>
+</div>
+
+<!-- ROCKETS -->
+<div class="section">
+<h2>🚀 Rockets</h2>
+<table>
+<tr><th>Select</th><th>#</th><th>Item</th><th>Retail</th><th>Member</th><th>Qty</th></tr>
+
+<tr>
+<td><input type="checkbox" value="04026 Rockets"></td>
+<td>04026</td><td>6oz Assorted Rockets</td>
+<td class="retail">$14</td><td class="member">$11</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="04049 Wild Geese"></td>
+<td>04049</td><td>Wild Geese Rocket</td>
+<td class="retail">$5</td><td class="member">$4</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="04206 Big Burst"></td>
+<td>04206</td><td>Big Burst Ballistics</td>
+<td class="retail">$30</td><td class="member">$23</td>
+<td><input type="number"></td>
+</tr>
+
+</table>
+</div>
+
+<!-- CAKES -->
+<div class="section">
+<h2>🔥 500g Cakes</h2>
+<table>
+<tr><th>Select</th><th>#</th><th>Item</th><th>Retail</th><th>Member</th><th>Qty</th></tr>
+
+<tr>
+<td><input type="checkbox" value="12010 Solar Rain"></td>
+<td>12010</td><td>Solar Rain</td>
+<td class="retail">$135</td><td class="member">$101</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="12033 High Stepper"></td>
+<td>12033</td><td>High Stepper</td>
+<td class="retail">$285</td><td class="member">$214</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="12128 Victory March"></td>
+<td>12128</td><td>Victory March</td>
+<td class="retail">$185</td><td class="member">$139</td>
+<td><input type="number"></td>
+</tr>
+
+</table>
+</div>
+
+<!-- REPEATERS -->
+<div class="section">
+<h2>🎇 Repeaters</h2>
+<table>
+<tr><th>Select</th><th>#</th><th>Item</th><th>Retail</th><th>Member</th><th>Qty</th></tr>
+
+<tr>
+<td><input type="checkbox" value="19295 Coconut Grove"></td>
+<td>19295</td><td>Coconut Grove</td>
+<td class="retail">$40</td><td class="member">$30</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="19355 Sky Bandit"></td>
+<td>19355</td><td>Sky Bandit</td>
+<td class="retail">$36</td><td class="member">$27</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" value="19387 Crackle Mania"></td>
+<td>19387</td><td>Crackle Mania</td>
+<td class="retail">$36</td><td class="member">$27</td>
+<td><input type="number"></td>
+</tr>
+
+</table>
+</div>
+
+<!-- ORDER INFO -->
+<div class="section">
+<h2>📝 Submit Order</h2>
+
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Phone</label>
+<input type="text" name="phone" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<button class="btn">Submit Order</button>
+
+<p>✅ We will calculate total and send invoice</p>
 
 </div>
+
+</form>
 
 </body>
 </html>
