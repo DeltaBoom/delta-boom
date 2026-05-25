@@ -64,7 +64,37 @@
     }
   </style>
 </head>
+<div class="section">
+  <h2>📝 Place Your Order</h2>
 
+  <form action="https://formspree.io/f/mgoqllde" method="POST">
+
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Phone:</label>
+    <input type="text" name="phone" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Order Details:</label>
+    <textarea name="order" rows="5" placeholder="List items + quantities" required></textarea>
+
+    <label>Delivery Area:</label>
+    <select name="delivery_area">
+      <option>Memphis</option>
+      <option>DeSoto County</option>
+    </select>
+
+    <input type="hidden" name="_subject" value="New Delta Boom Order">
+
+    <button class="btn" type="submit">Submit Order</button>
+
+  </form>
+
+  <p>✅ We will contact you within 24 hours to confirm delivery.</p>
+</div>
 <body>
 
 <header>
