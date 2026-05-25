@@ -35,9 +35,20 @@
     th, td {
       border: 1px solid #333;
       padding: 8px;
+      text-align: center;
     }
 
     th { background: #222; }
+
+    .retail {
+      text-decoration: line-through;
+      color: #888;
+    }
+
+    .member {
+      color: #00ff88;
+      font-weight: bold;
+    }
 
     input, select, textarea {
       width: 100%;
@@ -51,8 +62,6 @@
       padding: 12px;
       text-decoration: none;
       display: inline-block;
-      border: none;
-      cursor: pointer;
     }
   </style>
 </head>
@@ -61,55 +70,39 @@
 
 <header>
   <h1>🔥 DELTA BOOM 🔥</h1>
-  <p>Fireworks Buyers Club – Save 20%</p>
+  <p>Exclusive Fireworks Buyers Club</p>
+  <p><strong>Save 20%+ vs Retail Stores</strong></p>
 </header>
 
 <div class="section">
   <h2>💥 Join the Club</h2>
   <p>$10 Annual Membership</p>
-  <p>Unlock wholesale pricing & ordering</p>
 
   <a href="https://buy.stripe.com/14A00k9dOf8nfIJ2mm18c00" class="btn">
     Join Now (Pay with Card)
   </a>
 
-  <p style="margin-top:10px;">
-    ✅ Use same name for membership + orders
-  </p>
+  <p>✅ Members unlock discounted pricing below</p>
 </div>
 
 <div class="section">
-  <h2>🎆 How It Works</h2>
-  <p>1. Join Delta Boom</p>
-  <p>2. Browse products below</p>
-  <p>3. Submit order</p>
-  <p>4. We send invoice</p>
-  <p>5. You pay & we deliver</p>
-</div>
-
-<div class="section">
-  <h2>🚚 Delivery Area</h2>
-  <p>✔ Memphis, TN</p>
-  <p>✔ DeSoto County, MS</p>
-  <p>✔ FREE DELIVERY</p>
+  <h2>🚚 Delivery</h2>
+  <p>Memphis & DeSoto County</p>
+  <p><strong>FREE DELIVERY</strong></p>
   <p>$50 minimum order</p>
 </div>
 
-<!-- 500g CAKES -->
+<!-- CAKES -->
 <div class="section">
   <h2>🔥 500g Cakes</h2>
   <table>
-    <tr><th>Catalog #</th><th>Item</th><th>Price</th></tr>
-    <tr><td>12010</td><td>Solar Rain</td><td>$96</td></tr>
-    <tr><td>12139</td><td>Solar Eruption</td><td>$88</td></tr>
-    <tr><td>12033</td><td>High Stepper</td><td>$112</td></tr>
-    <tr><td>12175</td><td>Fire God</td><td>$100</td></tr>
-    <tr><td>12171</td><td>Vegas Lights</td><td>$76</td></tr>
-    <tr><td>12128</td><td>Victory March</td><td>$80</td></tr>
-    <tr><td>12137</td><td>D-Day</td><td>$88</td></tr>
-    <tr><td>12319</td><td>Paint The Sky</td><td>$90</td></tr>
-    <tr><td>12632</td><td>Mambo Jumbo</td><td>$70</td></tr>
-    <tr><td>12222</td><td>Thunder King</td><td>$95</td></tr>
+    <tr><th>Catalog</th><th>Item</th><th>Retail</th><th>Member Price</th></tr>
+    <tr><td>12010</td><td>Solar Rain</td><td class="retail">$120</td><td class="member">$96</td></tr>
+    <tr><td>12139</td><td>Solar Eruption</td><td class="retail">$110</td><td class="member">$88</td></tr>
+    <tr><td>12033</td><td>High Stepper</td><td class="retail">$140</td><td class="member">$112</td></tr>
+    <tr><td>12175</td><td>Fire God</td><td class="retail">$125</td><td class="member">$100</td></tr>
+    <tr><td>12171</td><td>Vegas Lights</td><td class="retail">$95</td><td class="member">$76</td></tr>
+    <tr><td>12128</td><td>Victory March</td><td class="retail">$100</td><td class="member">$80</td></tr>
   </table>
 </div>
 
@@ -117,12 +110,10 @@
 <div class="section">
   <h2>💥 Shell Kits</h2>
   <table>
-    <tr><th>Catalog #</th><th>Item</th><th>Price</th></tr>
-    <tr><td>14021</td><td>Electric Rain</td><td>$144</td></tr>
-    <tr><td>14035</td><td>Spirit of Liberty</td><td>$176</td></tr>
-    <tr><td>14012</td><td>Canister Cannon</td><td>$56</td></tr>
-    <tr><td>14044</td><td>Asian Deuce</td><td>$120</td></tr>
-    <tr><td>14055</td><td>Asian Ace</td><td>$136</td></tr>
+    <tr><th>Catalog</th><th>Item</th><th>Retail</th><th>Member Price</th></tr>
+    <tr><td>14021</td><td>Electric Rain</td><td class="retail">$180</td><td class="member">$144</td></tr>
+    <tr><td>14035</td><td>Spirit of Liberty</td><td class="retail">$220</td><td class="member">$176</td></tr>
+    <tr><td>14012</td><td>Canister Cannon</td><td class="retail">$70</td><td class="member">$56</td></tr>
   </table>
 </div>
 
@@ -130,13 +121,10 @@
 <div class="section">
   <h2>🎇 Repeaters</h2>
   <table>
-    <tr><th>Catalog #</th><th>Item</th><th>Price</th></tr>
-    <tr><td>19355</td><td>Sky Bandit</td><td>$32</td></tr>
-    <tr><td>19295</td><td>Coconut Grove</td><td>$28</td></tr>
-    <tr><td>19316</td><td>Ripcord</td><td>$24</td></tr>
-    <tr><td>19387</td><td>Crackle Mania</td><td>$36</td></tr>
-    <tr><td>19122</td><td>96 Shot Color Pearl</td><td>$20</td></tr>
-    <tr><td>19410</td><td>Thunder Blitz</td><td>$30</td></tr>
+    <tr><th>Catalog</th><th>Item</th><th>Retail</th><th>Member Price</th></tr>
+    <tr><td>19355</td><td>Sky Bandit</td><td class="retail">$40</td><td class="member">$32</td></tr>
+    <tr><td>19295</td><td>Coconut Grove</td><td class="retail">$35</td><td class="member">$28</td></tr>
+    <tr><td>19316</td><td>Ripcord</td><td class="retail">$30</td><td class="member">$24</td></tr>
   </table>
 </div>
 
@@ -144,12 +132,10 @@
 <div class="section">
   <h2>🎆 Assortments</h2>
   <table>
-    <tr><th>Catalog #</th><th>Item</th><th>Price</th></tr>
-    <tr><td>16034</td><td>Super Value Tray</td><td>$72</td></tr>
-    <tr><td>16059</td><td>Big Blaster Bag</td><td>$68</td></tr>
-    <tr><td>16102</td><td>Grand Finale Kit</td><td>$96</td></tr>
-    <tr><td>16042</td><td>Jumbo Fountain Pack</td><td>$88</td></tr>
-    <tr><td>16105</td><td>Times Square</td><td>$112</td></tr>
+    <tr><th>Catalog</th><th>Item</th><th>Retail</th><th>Member Price</th></tr>
+    <tr><td>16034</td><td>Super Value Tray</td><td class="retail">$90</td><td class="member">$72</td></tr>
+    <tr><td>16059</td><td>Big Blaster Bag</td><td class="retail">$85</td><td class="member">$68</td></tr>
+    <tr><td>16102</td><td>Grand Finale Kit</td><td class="retail">$120</td><td class="member">$96</td></tr>
   </table>
 </div>
 
@@ -157,32 +143,17 @@
 <div class="section">
   <h2>🧨 Firecrackers</h2>
   <table>
-    <tr><th>Catalog #</th><th>Item</th><th>Price</th></tr>
-    <tr><td>01013</td><td>200 String</td><td>$12</td></tr>
-    <tr><td>01039</td><td>1000 String</td><td>$28</td></tr>
-    <tr><td>01042</td><td>2000 String</td><td>$44</td></tr>
-    <tr><td>01077</td><td>4000 String</td><td>$64</td></tr>
-    <tr><td>01045</td><td>8000 String</td><td>$96</td></tr>
+    <tr><th>Catalog</th><th>Item</th><th>Retail</th><th>Member Price</th></tr>
+    <tr><td>01039</td><td>1000 String</td><td class="retail">$35</td><td class="member">$28</td></tr>
+    <tr><td>01042</td><td>2000 String</td><td class="retail">$55</td><td class="member">$44</td></tr>
+    <tr><td>01077</td><td>4000 String</td><td class="retail">$80</td><td class="member">$64</td></tr>
   </table>
 </div>
 
-<!-- FOUNTAINS -->
-<div class="section">
-  <h2>🎉 Fountains</h2>
-  <table>
-    <tr><th>Catalog #</th><th>Item</th><th>Price</th></tr>
-    <tr><td>11233</td><td>Classic Fountain</td><td>$8</td></tr>
-    <tr><td>11246</td><td>Crackling Crimson</td><td>$10</td></tr>
-    <tr><td>11335</td><td>Afterglow</td><td>$10</td></tr>
-    <tr><td>11323</td><td>Electric Daisy</td><td>$12</td></tr>
-    <tr><td>11350</td><td>Color Storm</td><td>$14</td></tr>
-  </table>
-</div>
-
-<!-- ORDER FORM -->
+<!-- ORDER -->
 <div class="section">
   <h2>📝 Place Your Order</h2>
-  <p><strong>Use Catalog # + Qty (Example: 12010 x2)</strong></p>
+  <p><strong>Use Catalog # + Quantity</strong></p>
 
   <form action="https://formspree.io/f/mgoqllde" method="POST">
 
@@ -208,7 +179,7 @@
 
   </form>
 
-  <p>✅ We will send a secure Stripe invoice after your order</p>
+  <p>✅ We will send your invoice after you order</p>
 </div>
 
 </body>
